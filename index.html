@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de [Votre Nom], développeur web.">
+    <title>Mon Portfolio | Zilizo</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <!-- Header avec le nom et le menu -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Mon Portfolio</h1>
+            </div>
+            <ul class="menu">
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section À propos -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>À propos de moi</h2>
+            <p>Salut ! Je suis zilizo, un passionné de développement et de graphisme spécialisé dans la plateforme Scratch. Depuis 3 ans, je crée des projets ludiques, interactifs et visuellement attrayants pour partager ma passion du codage et de l'animation.</p>
+            <p>Que tu sois un enseignant cherchant à introduire la programmation à des jeunes, un créateur en quête de projets originaux, ou simplement un curieux, ce portfolio est un espace où tu peux découvrir mon travail, mes compétences et mes projets réalisés.</p>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Mes Projets</h2>
+            <div class="project-gallery">
+                <div class="project-card">
+                    <a href="https://scratch-mit-edu.ezproxy.canberra.edu.au/projects/1071477137/" target="_blank">
+                    <img src="1.png" alt="jeux 1">
+                </a>
+                    <h3>Crazy balle</h3>
+                    <p>Un jeux cool que j'ai réalisé.</p>
+                </div>
+                <div class="project-card">
+                    <img src="project2.jpg" alt="Projet 2">
+                    <h3>jeux 2</h3>
+                    <p>Un autre jeux impressionnant que j'ai développé.</p>
+                </div>
+                <div class="project-card">
+                    <img src="project3.jpg" alt="Projet 3">
+                    <h3>Projet 3</h3>
+                    <p>Un jeux encore plus fun à découvrir !</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contactez-moi</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Votre nom" required>
+                <input type="email" name="email" placeholder="Votre email" required>
+                <textarea name="message" placeholder="Votre message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+            <div id="form-message"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Zilizo | Tous droits réservés | crée par charly_dev_web</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
